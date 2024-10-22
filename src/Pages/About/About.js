@@ -2,7 +2,7 @@ import React from 'react';
 import Header from '../../Composants/Header/header';
 import Footer from '../../Composants/Footer/footer';
 import CollapsibleSection from '../../Composants/CollapsibleSection/CollapsibleSection';
-import './About.css';
+import './About.scss';
 
 function About() {
   return (

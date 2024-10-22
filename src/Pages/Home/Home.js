@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../../Composants/Header/header'; 
 import Footer from '../../Composants/Footer/footer'; 
-import './Home.css'; 
+import './Home.scss'; 
 import logements from '../../logement.json'; // Chemin vers ton fichier JSON
 import { useNavigate } from 'react-router-dom'; // Pour la navigation
 

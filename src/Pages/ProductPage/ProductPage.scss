@@ -1,0 +1,195 @@
+/* ProductPage.css */
+.product-page {
+  font-family: 'Arial', sans-serif;
+  /* Utilisez la police de votre choix */
+
+  color: #333;
+}
+
+.gallery {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.product-details {
+  display: flex;
+  margin-left: -50px;
+  margin-right: -50px;
+}
+
+.product-details h1 {
+  color: red;
+}
+
+
+.product-location {
+  font-weight: bold;
+  /* Rend le texte en gras */
+  font-size: 18px;
+  /* Ajustez la taille de la police au besoin */
+  color: #333;
+  /* Couleur du texte, ajustez selon votre design */
+  margin-top: -40px;
+
+}
+
+.ooop h1 {
+  margin-bottom: 0;
+  margin-top: -30PX;
+}
+
+
+
+
+.host {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.host img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.tags {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.tag {
+  margin: 0 10px 10px 0;
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: #ff5f5f;
+  color: #fff;
+  display: inline-block;
+  text-align: center;
+
+
+}
+
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+}
+
+.star {
+  width: 36px;
+  height: 36px;
+  background-size: cover;
+
+}
+
+.star.active {
+  background-image: url('../../Images/star-active\ 1.png');
+  /* Chemin vers l'image d'étoile active */
+}
+
+.star.inactive {
+  background-image: url('../../Images/star-inactive\ 2.png');
+  /* Chemin vers l'image d'étoile inactive */
+}
+
+.product-title {
+  color: #ff5f5f;
+}
+
+.tags-container {
+  display: flex;
+}
+
+.ooop {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.host-details {
+  display: flex;
+}
+
+.host-image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.host-name {
+  color: red;
+  font-size: 20px;
+  margin-right: 20px;
+  text-align: center;
+}
+
+
+.host-details {
+  display: flex;
+  align-items: center;
+}
+
+.tags-cont {
+  margin-top: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.collapsible-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+
+}
+
+.collapsible-section {
+  flex: 1;
+
+}
+
+@media (max-width: 768px) {
+  .product-details {
+    display: block;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  .product-location {
+    margin-top: 0;
+  }
+
+  .ooop {
+    display: block;
+  }
+
+
+  .tags-cont {
+    display: block;
+  }
+
+  .host-details {
+    float: right;
+    margin-top: 70px;
+  }
+
+  .rating {
+    margin-top: 16px;
+    margin-bottom: 50px;
+  }
+
+  .ooop h1 {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  }

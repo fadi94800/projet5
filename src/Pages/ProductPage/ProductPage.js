@@ -5,7 +5,7 @@ import Header from '../../Composants/Header/header';
 import Footer from '../../Composants/Footer/footer';
 import Gallery from '../../Composants/Gallery/Gallery';
 import CollapsibleSection from '../../Composants/CollapsibleSection/CollapsibleSection';
-import './ProductPage.css';
+import './ProductPage.scss';
 
 function ProductPage() {
   const { id } = useParams();
