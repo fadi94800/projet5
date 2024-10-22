@@ -1,0 +1,45 @@
+.bannier {
+  background-image: url('../../Images/image2.png'); /* Assure-toi que le chemin est correct */
+  background-size: cover; /* Couvre tout l'espace disponible */
+  background-position: center; /* Centre l'image */    
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 30px;
+  position: relative;
+  height: 100px;
+  margin-top: 10px;
+}
+.bannier::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 15px;
+  background: rgba(0, 0, 0, 0.5); /* Assombrir avec du noir semi-transparent */
+  z-index: 1;
+}
+
+.about-content {
+
+  text-align: center;
+  color: #fff; /* Assure que le texte est en blanc pour contraster avec le fond sombre */
+}
+
+.value-section {
+  margin-top: 20px;
+}
+
+.value-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.value-section li {
+  padding: 10px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+  

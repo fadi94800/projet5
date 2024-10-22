@@ -1,0 +1,54 @@
+.collapsible-section {
+    margin: 20px;
+
+  }
+  
+  .collapsible-header {
+    background-color: #ff5f5f;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  .collapsible-content {
+    padding: 10px;
+    background-color: white;
+    color: black;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 0; /* Démarre fermé */
+    opacity: 0; /* Commence transparent */
+    transform: translateY(-50%); /* Démarre plus haut */
+    transition: max-height 0.5s ease, opacity 0.5s ease 0.1s, transform 0.5s ease; /* Assure des transitions fluides */
+}
+
+.collapsible-content.open {
+    max-height: 1000px; /* Max-height suffisante pour contenir tout contenu possible */
+    opacity: 1; /* Pleine opacité une fois ouvert */
+    transform: translateY(0); /* Retour à la position normale */
+}
+
+  
+  .collapsible-header span {
+    float: right; /* Maintient la flèche à droite */
+    background-size: cover; /* Assure que l'image couvre l'espace du span */
+    width: 25px; /* Taille de la flèche */
+    height: 25px; /* Taille de la flèche */
+    display: inline-block; /* Assure que le span se comporte comme une image */
+    background-repeat: no-repeat; /* Évite la répétition de l'image */
+}
+
+.collapsible-header span.up-arrow {
+  background-image: url('../../Images/fleche_bas.png'); /* Remplacez par le chemin de votre image de flèche descendante */
+}
+
+.collapsible-header span.down-arrow {
+    background-image: url('../../Images/fleche_haut.png'); /* Remplacez par le chemin de votre image de flèche descendante */
+}
+
+  
