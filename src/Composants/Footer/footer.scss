@@ -29,4 +29,12 @@ footer {
         margin-left: -20px;
         margin-right: -20px;
     }
+    .copyright{
+    
+    white-space: pre-line; // Permet de gérer les sauts de ligne
+    word-break: break-word; // Coupe le texte au besoin
+    max-width: 130px; // Ajustez cette valeur pour contrôler la largeur et forcer la coupure
+    margin: 0 auto; // Centrer le texte
+    }
+      
     }

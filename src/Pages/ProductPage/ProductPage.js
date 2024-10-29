@@ -37,7 +37,10 @@ function ProductPage() {
         <div className="ooop">
           <h1 className="product-title">{selectedLogement.title}</h1>
           <div className="host-details">
-            <span className="host-name">{selectedLogement.host.name}</span>
+          <span className="host-name">
+          {selectedLogement.host.name.split(' ')[0]}<br />
+          {selectedLogement.host.name.split(' ')[1]}    
+            </span>
             <img src={selectedLogement.host.picture} alt={selectedLogement.host.name} className="host-image" />
           </div>
         </div>

@@ -9,7 +9,7 @@ function About() {
     <div className="about">
       <Header />
       <section className="about-content">
-      <div class="bannier"></div>
+      <div className ="bannier"></div>
         <div className="value-section">
           <CollapsibleSection title="Fiabilité">Les annonces postées sur Kasa garantissent une fiabilité totale. Les photos sont conformes aux logements, et toutes les informations sont régulièrement vérifiées par nos équipes.</CollapsibleSection>
           <CollapsibleSection title="Respect">La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraîne une exclusion de notre plateforme.</CollapsibleSection>

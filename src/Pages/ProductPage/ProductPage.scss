@@ -117,10 +117,14 @@
 }
 
 .host-image {
-  width: 100px;
-  height: 100px;
+  width: 80px;
+  height:   80px;
   border-radius: 50%;
   object-fit: cover;
+}
+.star {
+  width: 30px;
+  height: 30px;
 }
 
 .host-name {
@@ -179,7 +183,7 @@
 
   .host-details {
     float: right;
-    margin-top: 70px;
+    margin-top: 79px;
   }
 
   .rating {
@@ -191,5 +195,33 @@
     margin-bottom: 0;
     margin-top: 0;
   }
+
+  }
+
+  @media (max-width: 418px) {
+
+    .host-details {
+      float: right;
+      margin-top: 97px;
+    }
+
+    .rating {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+  }
+
+  .star {
+    width: 19px;
+    height: 19px;
+    background-size: cover;
+  }
+  }
+
+  @media (max-width: 324px) {
+    .host-details {
+      float: right;
+      margin-top: 115px;
+    }
 
   }
